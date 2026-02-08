@@ -256,14 +256,6 @@ gigr/
 └── README.md             # This file
 ```
 
-## Limitations
-
-1. **Rule-based FST**: Graph construction uses hand-crafted rules derived from glossing conventions. May require adaptation for different annotation schemes.
-
-2. **Batch size**: Current implementation optimized for batch_size=1. Batching multiple sequences requires padding and graph alignment.
-
-3. **Gloss-to-Text only**: Framework focuses on the Gloss-to-Text stage. End-to-end video-to-text would require integration with sign recognition models.
-
 ## Future Work
 
 - Hybrid FST-neural approaches for automatic rule learning
