@@ -1,11 +1,3 @@
-# GIGR: Gloss-Internal Graph Construction and Encoding
-
-Python implementation of the **Gloss-Internal Graph Representation (GIGR)** framework for Sign Language Translation, as described in the paper:
-
-> **Gloss-Internal Graph Construction and Encoding for Sign Language Translation**  
-> Sam Nguyen-Xuan, Han Nguyen  
-> *Submitted to Journal Not Specified*, February 6, 2026
-
 ## Overview
 
 This repository implements a novel approach to Gloss-to-Text translation that represents compound glosses as directed, labeled graphs rather than flat token sequences. The framework captures internal linguistic structure (reference, agreement, aspect, etc.) and integrates seamlessly with Transformer encoder-decoder architectures.
@@ -250,17 +242,6 @@ Edges:
   2P --[rel_agreement]--> IX  (refinement)
 ```
 
-## Citation
-
-```bibtex
-@article{nguyen2026gigr,
-  title={Gloss-Internal Graph Construction and Encoding for Sign Language Translation},
-  author={Nguyen-Xuan, Sam and Nguyen, Han},
-  journal={Journal Not Specified},
-  year={2026}
-}
-```
-
 ## File Structure
 
 ```
@@ -294,12 +275,3 @@ gigr/
 
 This code is released under the Creative Commons Attribution 4.0 International License, consistent with the paper submission.
 
-## Contact
-
-For questions or issues, please contact:
-- Sam Nguyen-Xuan: samnx2@fe.edu.vn
-- Department of Computer Science, Swinburne Vietnam, FPT University
-
-## Acknowledgments
-
-This implementation is based on the paper submitted to *Journal Not Specified* (February 2026). The code follows the methodology described in the paper and reproduces the core framework and experimental setup.
